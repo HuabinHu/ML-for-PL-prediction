@@ -105,9 +105,7 @@ for p,t in pred_list:
     row_list.append(confusion_matrix(p,t).flatten())
 confusion_df = pd.DataFrame(row_list,columns="tn,fn,fp,tp".split(","))
 confusion_df["cycle"]=range(0,10)
-confusion_df["MCC"] = [x['mcc'] for x in stat_list]
-confusion_df["AUC"] = [x['auc'] for x in stat_list]
-#confusion_df["AUC_aaa"] = [x['auc_aaa'] for x in stat_list]
+confusion_df["accuracy"] = [x['accuracy'] for x in stat_list]
+confusion_df["recall"] = [x['recall'] for x in stat_list]
 confusion_df["F1 score"] = [x['fi_score'] for x in stat_list]
-confusion_df["Balanced accuracy"] = [x['bac'] for x in stat_list]
-print (confusion_df)
+confusion_df
