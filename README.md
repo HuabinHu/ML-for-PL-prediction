@@ -1,1 +1,1 @@
-# ML-for-PL-prediction
+# machine learning to identify phospholipidosis inducers
