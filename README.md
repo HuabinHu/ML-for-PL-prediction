@@ -1,4 +1,4 @@
-# Machine learning to identify phospholipidosis inducers
+# Machine learning to identify chemcal probes that induce phospholipidosis
 ![image](https://github.com/HuabinHu/ML-for-PL-prediction/assets/115711932/af868e0f-11df-4b67-aa65-f4c356ea494b)
 
 
