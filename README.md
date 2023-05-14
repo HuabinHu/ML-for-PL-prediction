@@ -1,5 +1,6 @@
 # Machine learning to identify phospholipidosis inducers
-![image](https://github.com/HuabinHu/ML-for-PL-prediction/assets/115711932/6b48e90c-f671-4d3c-a45c-157556e8e7cc)
+
+![image](https://github.com/HuabinHu/ML-for-PL-prediction/assets/115711932/5f87e5da-d220-494b-89bc-76c877fde502)
 
 
 1. The code employs the Random Forest (RF) algorithm to predict the phospholipidosis of small molecules. 
