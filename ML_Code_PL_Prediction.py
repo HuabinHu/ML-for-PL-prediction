@@ -99,6 +99,8 @@ print("accuracy: {:.4f}".format(sum(stat["accuracy"] for stat in stat_list) / le
 print("recall: {:.4f}".format(sum(stat["recall"] for stat in stat_list) / len(stat_list)))
 print("F1 Score: {:.4f}".format(sum(stat["fi_score"] for stat in stat_list) / len(stat_list)))
 
+# The ideal trail for prediction is achieved by setting the random state to 8;
+
 #Showing the performance metrics in different trials
 row_list = []
 for p,t in pred_list:
