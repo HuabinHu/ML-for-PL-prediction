@@ -30,8 +30,8 @@ def label_results(truth_list, pred_list):
     """Function to classify the prediction results."""
     label_list = [["TN","FN"],["FP","TP"]]
     res = [] 
-    for truth, pred in zip(pred_list, truth_list):
-        res.append(label_list[truth][pred])
+    for i, j in zip(pred_list, truth_list):
+        res.append(label_list[i][j])
 
 # Load data,change location to your data dir
 df = get_dataframe("C:/Users/Huabin Hu/OneDrive/Desktop/HHH_YH.csv")
