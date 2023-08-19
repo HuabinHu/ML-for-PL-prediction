@@ -34,7 +34,7 @@ def label_results(truth_list, pred_list):
         res.append(label_list[i][j])
 
 # Load data,change location to your data dir
-df = get_dataframe("C:/Users/Huabin Hu/OneDrive/Desktop/HHH_YH.csv")
+df = get_dataframe("../Curated data set.csv")
 
 # Add fingerprints to DataFrame
 sf = "SMILE" #Field with the SMILES
